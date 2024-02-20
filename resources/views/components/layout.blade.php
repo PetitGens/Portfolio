@@ -11,11 +11,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
     @vite('resources/css/app.css')
 </head>
-<body class="bg-[#040926]">
-    <x-navbar></x-navbar>
-    <div class="flex justify-center">
-        <x-page-title>{{$title}}</x-page-title>
+<body>
+    <div class="bg-[#040926] flex flex-col h-screen justify-between">
+        <div class="flex-1 flex:col">
+            <header>
+                <x-navbar></x-navbar>
+            </header>
+            <main>
+                <div class="flex justify-center">
+                    <x-page-title>{{$title}}</x-page-title>
+                </div>
+                {{$slot}}
+            </main>
+        </div>
+        <footer class="justify-self-end">
+            <x-footer></x-footer>
+        </footer>
     </div>
-    {{$slot}}
 </body>
 </html>
