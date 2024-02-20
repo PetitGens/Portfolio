@@ -10,11 +10,11 @@
     sm:items-baseline w-full"
 >
     <div class="mb-2 sm:mb-0">
-        <a href="#" class="text-2xl no-underline text-grey-darkest hover:text-blue-dark">Home</a>
+        <a href="/portfolio" class="text-2xl no-underline text-grey-darkest hover:text-blue-600">Accueil</a>
     </div>
     <div>
-        <a href="#" class="text-lg no-underline text-grey-darkest hover:text-blue-600 ml-2">One</a>
-        <a href="#" class="text-lg no-underline text-grey-darkest hover:text-blue-600 ml-2">Two</a>
-        <a href="#" class="text-lg no-underline text-grey-darkest hover:text-blue-600 ml-2">Three</a>
+        <a href="#" class="text-lg no-underline text-grey-darkest hover:text-blue-600 ml-2">Projets</a>
+        <a href="#" class="text-lg no-underline text-grey-darkest hover:text-blue-600 ml-2">Expériences</a>
+        <a href="#" class="text-lg no-underline text-grey-darkest hover:text-blue-600 ml-2">Compétences</a>
     </div>
 </nav>

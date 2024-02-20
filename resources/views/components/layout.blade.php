@@ -13,7 +13,7 @@
 </head>
 <body class="bg-[#040926]">
     <x-navbar></x-navbar>
-    <div class="flex flex-col items-center">
+    <div class="flex justify-center">
         <x-page-title>{{$title}}</x-page-title>
     </div>
     {{$slot}}
