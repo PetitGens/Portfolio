@@ -1,5 +1,5 @@
 <x-layout title="Portfolio">
-    <div class="flex flex-col sm:flex-row text-white justify-evenly items-center text-justify text-xl">
+    <div class="flex flex-col sm:flex-row text-white justify-evenly items-center text-justify sm:text-xl">
         <img
             src="/images/julien-mallet.png" 
             alt="Julien Mallet" 
