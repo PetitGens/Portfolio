@@ -14,7 +14,7 @@
                 recherche actuellement un stage pour approfondir mes compétences dans des projets concrets.
             </p>
             <p class="m-5 max-w-xl">
-                N'hésitez pas à jeter un coup d'oeil à mes <a class="text-[#62C370] underline hover:font-bold" href="/portfolio/projects">projets</a>, ou à me contacter pour plus d'informations.
+                N'hésitez pas à jeter un coup d'oeil à mes <a class="text-[#62C370] underline hover:font-bold" href="#">projets</a>, ou à me contacter pour plus d'informations.
             </p>
         </div>
     </div>
