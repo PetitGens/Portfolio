@@ -1,5 +1,5 @@
 <x-layout title="Portfolio">
-    <div class="flex flex-col sm:flex-row text-white justify-evenly items-center text-justify sm:text-xl">
+    <div class="flex flex-col sm:flex-row text-white justify-evenly items-center sm:text-xl">
         <img
             src="/images/julien-mallet.png" 
             alt="Julien Mallet" 
@@ -9,7 +9,7 @@
         >
 
         <div class= "flex flex-col">
-            <p class="m-5 max-w-xl">
+            <p class="m-5 max-w-xl text-justify">
                 Bonjour, je suis Julien Mallet, développeur en devenir. Actuellement étudiant de deuxième année en BUT Informatique près de Caen, je
                 recherche actuellement un stage pour approfondir mes compétences dans des projets concrets.
             </p>
