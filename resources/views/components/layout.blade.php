@@ -15,7 +15,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <div class="bg-[#040926] flex flex-col justify-between h-full">
+    <div class="bg-[#040926] flex flex-col justify-between min-h-screen">
         <div class="flex-1 flex:col">
             <header>
                 <x-navbar></x-navbar>

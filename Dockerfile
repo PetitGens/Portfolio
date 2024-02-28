@@ -4,6 +4,10 @@ WORKDIR /app
 
 
 COPY . .
+
+# Replace the env file to the one for production
+COPY .env.production .env
+
 RUN composer install --optimize-autoloader --no-dev
 
 # Apache Stage
