@@ -19,6 +19,9 @@ WORKDIR /var/www/app
 # Copy files
 COPY --from=composer_stage /app/ ./
 
+# Migrate database
+RUN php artisan migrate:fresh --force --seed
+
 RUN chown -R www-data storage
 RUN chown -R www-data bootstrap/cache
 
