@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ProjectController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,9 +15,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return redirect('/portfolio');
+    return view('home');
 });
 
 Route::get('/portfolio', function() {
-    return view('home');
+    return redirect('/');
 });
+
+Route::get('/projects', [ProjectController::class, 'index']);

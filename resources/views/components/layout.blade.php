@@ -18,7 +18,7 @@
     <div class="bg-[#040926] flex flex-col justify-between min-h-screen">
         <div class="flex-1 flex:col">
             <header>
-                <x-navbar></x-navbar>
+                <x-navbar/>
             </header>
             <main>
                 <div class="flex justify-center">
@@ -27,8 +27,8 @@
                 {{$slot}}
             </main>
         </div>
-        <footer class="justify-self-end">
-            <x-footer></x-footer>
+        <footer>
+            <x-footer/>
         </footer>
     </div>
 </body>

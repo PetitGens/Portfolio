@@ -10,10 +10,10 @@
     sm:items-baseline w-full"
 >
     <div class="mb-6 sm:mb-0">
-        <x-navbar-item href="/portfolio" main=true>Accueil</x-navbar-item>
+        <x-navbar-item href="/" main=true>Accueil</x-navbar-item>
     </div>
     <div class="flex justify-evenly gap-2">
-        <x-navbar-item href="#">Projets</x-navbar-item>
+        <x-navbar-item href="/projects">Projets</x-navbar-item>
         <x-navbar-item href="#">Expériences</x-navbar-item>
         <x-navbar-item href="#">Compétences</x-navbar-item>
     </div>
