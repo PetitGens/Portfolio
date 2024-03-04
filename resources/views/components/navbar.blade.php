@@ -15,6 +15,6 @@
     <div class="flex justify-evenly gap-2">
         <x-navbar-item href="/projects">Projets</x-navbar-item>
         <x-navbar-item href="#">Expériences</x-navbar-item>
-        <x-navbar-item href="#">Compétences</x-navbar-item>
+        <x-navbar-item href="#">Contact</x-navbar-item>
     </div>
 </nav>
