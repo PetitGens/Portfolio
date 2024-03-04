@@ -23,3 +23,5 @@ Route::get('/portfolio', function() {
 });
 
 Route::get('/projects', [ProjectController::class, 'index']);
+
+Route::get('/projects/{projectName}', [ProjectController::class, 'show']);

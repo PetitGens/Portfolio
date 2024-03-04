@@ -9,10 +9,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
-    <!--@vite('resources/css/app.css')-->
-
     <!--I shouldn't be using this to include tailwindcss, but I need a quick way to install it in production-->
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="{{asset('css/project.css')}}">
 </head>
 <body>
     <div class="bg-[#040926] flex flex-col justify-between min-h-screen">

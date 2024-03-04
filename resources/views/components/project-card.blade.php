@@ -1,6 +1,6 @@
 <a 
     class="border-2 border-white rounded-3xl w-72 h-72 m-5 text-white"
-    href="#"
+    href="/projects/{{$project->pro_name}}"
 >
     <div class="p-2 flex flex-col items-center h-full w-full">
         <h1 class="text-lg">{{$project->pro_name}}</h1>
